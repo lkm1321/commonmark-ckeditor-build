@@ -1,4 +1,4 @@
-import BalloonEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
+import InlineEditorBase from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor';
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import EssentialsPlugin from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadadapterPlugin from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
@@ -24,14 +24,14 @@ import CodeBlockPlugin from './plugins/code-block/code-block';
 import OPPreviewPlugin from './plugins/op-preview.plugin';
 import {configurationCustomizer} from './op-config-customizer';
 import {opMacroPlugins, opMentioningPlugins, opImageUploadPlugins} from './op-plugins';
-import {BalloonEditor} from './op-ckeditor';
+import {InlineEditor} from './op-ckeditor';
 import OPMacroListPlugin from "./plugins/op-macro-list-plugin";
 
-export class BalloonEditor extends BalloonEditorBase {}
+export class InlineEditor extends InlineEditorBase {}
 export class ClassicEditor extends ClassicEditorBase {}
 
 // Export the two common interfaces
-window.OPBalloonEditor = BalloonEditor;
+window.OPInlineEditor = InlineEditor;
 window.OPClassicEditor = ClassicEditor;
 
 const config = {
@@ -149,7 +149,7 @@ const config = {
 };
 
 ClassicEditor.build = config;
-BalloonEditor.build = config;
+InlineEditor.build = config;
 
 ClassicEditor.createCustomized = configurationCustomizer(ClassicEditor);
-BalloonEditor.createCustomized = configurationCustomizer(BalloonEditor);
+InlineEditor.createCustomized = configurationCustomizer(InlineEditor);

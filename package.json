@@ -22,7 +22,7 @@
     "@ckeditor/ckeditor5-dev-utils": "^9.0.1",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^5.0.1",
     "@ckeditor/ckeditor5-easy-image": "^10.0.1",
-    "@ckeditor/ckeditor5-editor-balloon": "^10.0.1",
+    "@ckeditor/ckeditor5-editor-inline": "^10.0.1",
     "@ckeditor/ckeditor5-editor-classic": "^10.0.1",
     "@ckeditor/ckeditor5-essentials": "^10.1.0",
     "@ckeditor/ckeditor5-heading": "^10.0.1",
@@ -53,10 +53,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
   "homepage": "https://ckeditor5.github.io",
-  "bugs": "https://github.com/ckeditor/ckeditor5-build-balloon/issues",
+  "bugs": "https://github.com/ckeditor/ckeditor5-build-inline/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-balloon.git"
+    "url": "https://github.com/ckeditor/ckeditor5-build-inline.git"
   },
   "scripts": {
     "build": "npm run build-ckeditor",

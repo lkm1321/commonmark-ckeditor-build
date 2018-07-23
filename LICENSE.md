@@ -3,9 +3,9 @@ Software License Agreement
 
 CKEditor5 CommonMark build
 
-Based on the CKEditor5 balloon editor build with the following license:
+Based on the CKEditor5 inline editor build with the following license:
 
-**CKEditor 5 balloon editor build** – https://github.com/ckeditor/ckeditor5-build-balloon <br>
+**CKEditor 5 inline editor build** – https://github.com/ckeditor/ckeditor5-build-inline <br>
 Copyright (c) 2003-2018, [CKSource](http://cksource.com) Frederico Knabben. All rights reserved.
 
 Licensed under the terms of any of the following licenses at your choice:
